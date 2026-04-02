@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: examenSpring
+  datasource:
+    url: jdbc:postgresql://localhost:5432/clinica_veterinaria
+    username: yoel
+    password: Kemela
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+api:
+  token: sk_7214.nLbRrloUrvd7ruNs81vdFFh2TGLq0KFp
